@@ -25,7 +25,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 @ConditionalOnWebApplication
-@ComponentScan(basePackages = { "cn.su.xxd.server.entity","com.optimal.kdm.module.risk.api","com.optimal.kdm.module.attachment.api" })
+//@ComponentScan(basePackages =)
 @EntityScan("cn.su.xxd.xxd.base.entity")
 public class OptimalManageAutoConfiguration {
 
